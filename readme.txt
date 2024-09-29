@@ -1,0 +1,1 @@
+This is Basic User Registration and Authentication Form in Django

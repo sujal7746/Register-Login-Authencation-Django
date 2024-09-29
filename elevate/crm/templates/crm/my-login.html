@@ -1,0 +1,14 @@
+<html>
+
+    <h4> Login here!! </h4>
+    <form method = "POST" autocomplete="off">
+        {% csrf_token %}
+        {{loginform.as_p}}
+        <input type = "submit" value = "login"/>
+
+
+
+    </form>
+
+
+</html>
